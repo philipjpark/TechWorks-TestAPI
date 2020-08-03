@@ -21,7 +21,7 @@ class App extends Component {
           items: data,
         });
       });
-  }
+  };
 
   render() {
     var { isLoaded, items } = this.state;
